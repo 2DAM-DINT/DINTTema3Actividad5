@@ -10,6 +10,57 @@
         MinHeight="450" MinWidth="400"
         Icon=".\recursos\calc.ico">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.ColumnSpan="3"
+                 Margin="15"/>
+        <Button 
+            Grid.Row="1" 
+            Grid.Column="0"
+            Content="1"/>
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            Content="1" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Content="0" />
     </Grid>
 </Window>
