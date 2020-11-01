@@ -12,7 +12,7 @@ namespace Actividad5
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            numerosPulsados.Text += (sender as Button).Content.ToString();
+            numerosPulsados.Text += (sender as Button).Tag.ToString();
         }
     }
 }
