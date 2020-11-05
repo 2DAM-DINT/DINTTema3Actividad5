@@ -4,6 +4,14 @@
              xmlns:local="clr-namespace:Actividad5"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="{x:Type Grid}">
+            <Setter Property="Margin"
+                    Value="10" />
+        </Style>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="5" />
+            <EventSetter Event="Click" Handler="Button_Click" />
+        </Style>
     </Application.Resources>
 </Application>

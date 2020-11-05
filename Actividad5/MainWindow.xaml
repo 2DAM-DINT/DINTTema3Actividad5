@@ -9,14 +9,14 @@
         Height="550" Width="450"
         MinHeight="350" MinWidth="250"
         Icon=".\recursos\calc.ico">
-    <Grid Margin="10">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition
                 Height="2*"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -27,7 +27,7 @@
         <Border
             Grid.ColumnSpan="3"
             BorderBrush="Black"
-            Margin="5,5,5,5"
+            Margin="5"
             BorderThickness="1">
             <Viewbox>
                 <TextBlock
@@ -36,8 +36,6 @@
         </Border>
         <Button Grid.Row="1"
                 Grid.Column="0"
-                Margin="5,5,5,5"
-                Click="Button_Click"
                 Tag="1">
             <Viewbox>
                 <TextBlock>1</TextBlock>
@@ -45,72 +43,56 @@
         </Button>
         <Button Grid.Row="1"
                 Grid.Column="1"
-                Tag="2"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="2">
             <Viewbox>
                 <TextBlock>2</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="1"
                 Grid.Column="2"
-                Tag="3"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="3">
             <Viewbox>
                 <TextBlock>3</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="2"
                 Grid.Column="0"
-                Tag="4"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="4">
             <Viewbox>
                 <TextBlock>4</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="2"
                 Grid.Column="1"
-                Tag="5"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="5">
             <Viewbox>
                 <TextBlock>5</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="2"
                 Grid.Column="2"
-                Tag="6"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="6">
             <Viewbox>
                 <TextBlock>6</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="3"
                 Grid.Column="0"
-                Tag="7"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="7">
             <Viewbox>
                 <TextBlock>7</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="3"
                 Grid.Column="1"
-                Tag="8"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="8">
             <Viewbox>
                 <TextBlock>8</TextBlock>
             </Viewbox>
         </Button>
         <Button Grid.Row="3"
                 Grid.Column="2"
-                Tag="9"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="9">
             <Viewbox>
                 <TextBlock>9</TextBlock>
             </Viewbox>
@@ -118,9 +100,7 @@
         <Button Grid.Row="4"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
-                Tag="0"
-                Margin="5,5,5,5"
-                Click="Button_Click">
+                Tag="0">
             <Viewbox>
                 <TextBlock>0</TextBlock>
             </Viewbox>

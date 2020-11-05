@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
 
 namespace Actividad5
 {
@@ -8,11 +7,6 @@ namespace Actividad5
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            numerosPulsados.Text += (sender as Button).Tag.ToString();
         }
     }
 }
