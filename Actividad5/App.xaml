@@ -9,6 +9,15 @@
                     Value="10" />
         </Style>
 
+        <Style TargetType="{x:Type Border}" x:Key="borde">
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="BorderBrush"
+                    Value="Black" />
+            <Setter Property="BorderThickness"
+                    Value="1" />
+        </Style>
+
         <Style TargetType="{x:Type Button}">
             <Setter Property="Margin" Value="5" />
             <EventSetter Event="Click" Handler="Button_Click" />

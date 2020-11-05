@@ -24,14 +24,10 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Border
-            Grid.ColumnSpan="3"
-            BorderBrush="Black"
-            Margin="5"
-            BorderThickness="1">
+        <Border Style="{StaticResource borde}"
+                Grid.ColumnSpan="3">
             <Viewbox>
-                <TextBlock
-                    x:Name="numerosPulsados" />
+                <TextBlock x:Name="numerosPulsados" />
             </Viewbox>
         </Border>
         <Button Grid.Row="1"
